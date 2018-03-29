@@ -5,7 +5,7 @@ import numpy as np
 from keras.models import Model
 from keras.layers import Input
 from keras.layers import Dense
-import keras.regularizers as regularizers
+from keras import regularizers
 import matplotlib.pyplot as plt
 
 def RunAsMain():
