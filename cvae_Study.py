@@ -31,7 +31,6 @@ def main():
 # CVAEのクラス
 class CVAE():
     # コンストラクタ: デフォルトは784次元、中間層(nch)256次元
-    # どの辺がConvolutionを使っているのか不明。
     def __init__(self):
         self.input_dim = 784
         self.latent_dim = 128
